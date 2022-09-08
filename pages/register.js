@@ -17,7 +17,7 @@ export default function Register() {
           type='text'
           name='name'
           placeholder='Your first name'
-          required='true'
+          required={true}
           minLength={3}
           maxLength={50}
         />
@@ -33,7 +33,7 @@ export default function Register() {
           type='text'
           name='lastName'
           placeholder='Your last name'
-          required='true'
+          required={true}
           minLength={3}
           maxLength={50}
         />
@@ -46,7 +46,7 @@ export default function Register() {
           type='email'
           name='email'
           placeholder='Your email address'
-          required='true'
+          required={true}
         />
 
         <label className='mr-2 text-xl font-semibold text-white' htmlFor='name'>
@@ -57,7 +57,7 @@ export default function Register() {
           type='password'
           name='password'
           placeholder='Password'
-          required='true'
+          required={true}
           minLength={8}
           maxLength={50}
         />
@@ -70,7 +70,7 @@ export default function Register() {
           type='password'
           name='name'
           placeholder='Confirm your password'
-          required='true'
+          required={true}
           minLength={8}
           maxLength={50}
         />

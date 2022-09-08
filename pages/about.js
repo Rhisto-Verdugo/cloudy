@@ -7,7 +7,7 @@ export default function About() {
       <header>
         <Header />
       </header>
-      <main className='w-5/6 px-8 py-4 mx-auto mt-24 bg-blue-100 rounded-md lg:w-4/6'>
+      <main className='w-11/12 px-8 py-4 mx-auto mt-24 bg-blue-100 rounded-md lg:w-4/6'>
         <h1 className='mt-4 text-4xl font-semibold text-center text-blue-900 '>
           About us
         </h1>

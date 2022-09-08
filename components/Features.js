@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { BiCloudLightning } from "react-icons/Bi"
+import { BiCloudLightning } from "react-icons/bi"
 import { ImStatsDots } from "react-icons/im"
 import { MdGppGood } from "react-icons/md"
 

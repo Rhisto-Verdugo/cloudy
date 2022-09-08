@@ -1,7 +1,5 @@
 import Head from "next/head"
-import Image from "next/image"
 import Header from "../components/Header"
-import { BsCloudHaze2Fill } from "react-icons/Bs"
 import Hero from "../components/Hero"
 import Features from "../components/Features"
 import Screenshots from "../components/Screenshots"

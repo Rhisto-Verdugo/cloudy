@@ -41,6 +41,9 @@ const Header = () => {
       </nav>
 
       <aside
+        onMouseLeave={() => {
+          setSidebar(false)
+        }}
         className={
           sidebar
             ? "w-52 h-[90vh] transition-all ease-in-out duration-800 flex flex-col justify-between fixed top-24 right-0 bg-white z-50"
@@ -68,7 +71,7 @@ const Header = () => {
         <ul
           className={`flex justify-center w-full ${
             !sidebar && "hidden"
-          } mb-12 text-3xl text-blue-900`}
+          } mb-20 text-3xl text-blue-900`}
         >
           <li className='m-2 hover:text-blue-800 hover:cursor-pointer'>
             <Link href='https://www.facebook.com/'>

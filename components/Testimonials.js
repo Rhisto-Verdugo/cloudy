@@ -11,8 +11,8 @@ import Image from "next/image"
 
 const Testimonials = () => {
   return (
-    <div>
-      <Fade triggerOnce>
+    <Fade triggerOnce>
+      <div className='py-4 bg-gray-200'>
         <Swiper
           navigation
           pagination={{
@@ -51,8 +51,8 @@ const Testimonials = () => {
             )
           })}
         </Swiper>
-      </Fade>
-    </div>
+      </div>
+    </Fade>
   )
 }
 export default Testimonials

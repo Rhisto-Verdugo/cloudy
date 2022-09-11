@@ -2,9 +2,9 @@ import { Fade } from "react-awesome-reveal"
 
 const Partners = () => {
   return (
-    <div>
-      <Fade triggerOnce>
-        <h1 className='mt-20 mb-8 text-5xl font-semibold text-center text-blue-900'>
+    <Fade triggerOnce>
+      <section className='bg-gray-200'>
+        <h1 className='pt-20 mb-8 text-5xl font-semibold text-center text-blue-900'>
           Proudly working with:
         </h1>
         <div className='flex flex-row flex-wrap items-center justify-center pt-8 bg-gray-800'>
@@ -36,8 +36,8 @@ const Partners = () => {
             <img src='/images/logos-grayscale/11.png' />
           </div>
         </div>
-      </Fade>
-    </div>
+      </section>
+    </Fade>
   )
 }
 export default Partners

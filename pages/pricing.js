@@ -13,7 +13,7 @@ export default function Pricing() {
       </h1>
       <section className='flex flex-col-reverse w-11/12 gap-8 m-auto mt-12 md:grid md:grid-cols-3'>
         <Fade triggerOnce>
-          <div className='flex flex-col items-center justify-center gap-4 py-10 mb-8 bg-blue-100 rounded-xl'>
+          <div className='flex flex-col items-center justify-center gap-6 py-10 mb-8 bg-blue-100 rounded-xl'>
             <h1 className='text-4xl'>Essential</h1>
             <p className=''>for hobbyists</p>
             <p className=''>free</p>
@@ -95,7 +95,7 @@ export default function Pricing() {
         </Fade>
 
         <Fade triggerOnce>
-          <div className='flex flex-col items-center justify-center gap-6 py-10 mb-8 bg-blue-700 border-8 border-yellow-500 rounded-xl'>
+          <div className='flex flex-col items-center justify-center gap-6 py-8 mb-8 bg-blue-700 border-8 border-yellow-500 rounded-xl'>
             <h1 className='text-4xl font-semibold text-yellow-500'>Deluxe</h1>
             <p className='text-white'>for enterprise</p>
             <p className='font-semibold text-white'>$50.00/y</p>

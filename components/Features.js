@@ -13,7 +13,7 @@ const Features = () => {
 
       <div className='flex flex-col items-center justify-center gap-4 p-10 m-auto rounded-lg '>
         <Fade triggerOnce>
-          <div className='flex flex-col grid-cols-2 p-8 bg-blue-500 rounded-lg lg:grid'>
+          <div className='flex flex-col items-center justify-center grid-cols-2 p-8 bg-blue-500 rounded-lg md:grid'>
             <div className='mx-auto rounded-lg'>
               <Image
                 src='/images/features1.svg'
@@ -39,8 +39,8 @@ const Features = () => {
         </Fade>
 
         <Fade triggerOnce>
-          <div className='flex flex-col grid-cols-2 p-8 bg-blue-500 rounded-lg lg:grid'>
-            <div className='mx-auto mt-12 mr-2 rounded-lg'>
+          <div className='flex flex-col items-center justify-center grid-cols-2 p-8 bg-blue-500 rounded-lg md:grid'>
+            <div className='mx-auto mt-12 rounded-lg'>
               <Image src='/images/features2.svg' width={500} height={300} />
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -60,8 +60,8 @@ const Features = () => {
         </Fade>
 
         <Fade triggerOnce>
-          <div className='flex flex-col grid-cols-2 p-8 bg-blue-500 rounded-lg lg:grid'>
-            <div className='mt-12 mr-2 rounded-lg'>
+          <div className='flex flex-col items-center justify-center grid-cols-2 p-8 bg-blue-500 rounded-lg md:grid'>
+            <div className='mt-12 rounded-lg'>
               <Image src='/images/features3.svg' width={500} height={300} />
             </div>
             <div className='flex flex-col items-center justify-center'>

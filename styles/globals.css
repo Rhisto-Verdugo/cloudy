@@ -20,3 +20,16 @@ a {
 * {
   box-sizing: border-box;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  opacity: 60%;
+  transition: all 300ms ease-in-out;
+}
+.swiper-button-next:active,
+.swiper-button-prev:active {
+  opacity: 100% !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}

@@ -1,7 +1,7 @@
 import { useRef, useState } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
-import { Navigation, EffectFade, Autoplay, Pagination } from "swiper"
+import { Navigation, Pagination } from "swiper"
 import "swiper/css/navigation"
 import "swiper/css/effect-fade"
 import "swiper/css/pagination"
@@ -12,15 +12,14 @@ import Image from "next/image"
 const Testimonials = () => {
   return (
     <Fade triggerOnce>
-      <div className='py-4 bg-gray-200'>
+      <div className='py-4 bg-gray-100'>
         <Swiper
           navigation
           pagination={{
             clickable: true,
           }}
-          // effect={"fade"}
           speed={800}
-          modules={[Navigation, Pagination, Autoplay, EffectFade]}
+          modules={[Navigation, Pagination]}
           slidesPerView={1}
           loop
           className='w-10/12 p-8 mx-auto my-8 bg-blue-200 md:h-96 rounded-xl'

@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal"
 const Partners = () => {
   return (
     <Fade triggerOnce>
-      <section className='bg-gray-200'>
+      <section className='bg-gray-100'>
         <h1 className='pt-20 mb-8 text-5xl font-semibold text-center text-blue-900'>
           Proudly working with:
         </h1>

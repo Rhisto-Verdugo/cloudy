@@ -46,7 +46,7 @@ const Header = () => {
         }}
         className={
           sidebar
-            ? "w-52 h-[90vh] transition-all ease-in-out duration-800 flex flex-col justify-between fixed top-24 right-0 bg-white z-50"
+            ? "w-64 h-[90vh] transition-all ease-in-out duration-800 flex flex-col justify-between fixed top-24 right-0 bg-white z-50"
             : "w-0 transition-all ease-in-out duration-800"
         }
       >
